@@ -1,0 +1,28 @@
+body { padding: 0; margin: 0; }
+
+/* wrapper */
+.wrapper { 
+  width: 100%; 
+  height: 100vh;
+  display: flex; 
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+/* Header */
+header { 
+  border-bottom: 1px solid #ddd;
+}
+
+/* Profile */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+/* Footer */
+footer {
+  font-size: 14px;
+}
