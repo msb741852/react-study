@@ -22,12 +22,12 @@ body { padding: 0; margin: 0; }
   justify-content: space-around;
   align-items: center;
   border: 1px solid #ddd;
-  width: 500px;
+  width: 600px;
   border-radius: 10px;
   padding: 30px;
 }
 
-.list {
+.profile-section-list {
   list-style: none;
   padding: 0;
 }
@@ -38,20 +38,24 @@ body { padding: 0; margin: 0; }
 }
 
 /* counter-section */
-.counter-section .button-section { 
+.counter-button-section { 
   display: flex;
   justify-content: center;
   gap: 20px;
 }
 
-.counter-section .button-section .btn-style {
+.counter-btn-style {
   background-color: #fff;
   border:2px solid #ddd;
   width: 70px;
   height: 30px;
   cursor: pointer;
 }
+.counter-btn-style:disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
 
-.counter-section .button-section .btn-style:hover {
+.counter-btn-style:hover {
   background-color: #ddd;
 }
